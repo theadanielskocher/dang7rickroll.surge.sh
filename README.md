@@ -1,1 +1,1 @@
-# Hello world!
+dang7rickroll's blog.
