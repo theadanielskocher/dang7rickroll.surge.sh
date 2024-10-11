@@ -9,9 +9,11 @@ Chức năng chính của page này nằm ở cái tên: giới thiệu bản th
 
 ## Thông tin cá nhân
 
-Mình là Đăng, học sinh lớp 11, THPT Phan Châu Trinh, Đà Nẵng.
+Mình là Đăng, học sinh lớp 12, THPT Phan Châu Trinh, Đà Nẵng.
 
 Mình rất thích CP (mặc dù gà và dốt vl - đã thế còn học không chuyên), nhưng mà rất may mắn vì có rất nhiều người (lẫn quen và không quen) đã giúp mình rất nhiều.
+
+Nhưng mà hiện tại thì mình đã tạm dừng hoạt động CP để tập trung vào những mục tiêu khác lớn hơn, trong đó là đậu được vào trường đại học mà mình mong muốn.
 
 ## Về blog này
 Blog này được tạo nên dựa trên cảm hứng của blog cá nhân của anh Trần Quang Lộc (coordinator Codeforces - http://quangloc99.github.io) và sử dụng Vitepress theme.

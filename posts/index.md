@@ -7,6 +7,9 @@ layout: home
   import PostsCard from './PostCard.vue'
 </script>
 
+<PostsCard title="Thông báo nho nhỏ" excerpt="ABC" image="https://consosukien.vn/pic/News/bo-giao-duc-va-dao-tao-tiep-tuc-xay-dung-va-hoan-thien-co-so-du-lieu-nganh-giao-duc.jpg" author="Dang Nguyen Dinh Hai" href="/posts/Other/sumsummarry" date="2024-10-15" />
+
+---
 
 <PostsCard title="Sửa đề HSG lớp 9 môn Tin học TP. Đà Nẵng" excerpt="ABC" image="https://consosukien.vn/pic/News/bo-giao-duc-va-dao-tao-tiep-tuc-xay-dung-va-hoan-thien-co-so-du-lieu-nganh-giao-duc.jpg" author="Dang Nguyen Dinh Hai" href="/posts/Other/hsg92324" date="2024-03-02" />
 

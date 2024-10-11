@@ -1,10 +1,3 @@
----
-head:
-  - - link
-    - rel: stylesheet
-      href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
----
-
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
@@ -90,13 +83,3 @@ This is a details block.
 ## More
 
 Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
-
-## Math
-
-$K+1=2$
-
-$$K+1=2$$
-
-$${x} = \int_{-\infty}^\infty \hat\xi\,e^{2 \pi i \xi x} \,d\xi$$
-
-$$\Braket{ ϕ | \frac{∂^2}{∂ t^2} | ψ }$$

@@ -1,0 +1,75 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+
+
+<h1>Cộng và trừ</h1>
+
+<script>
+    katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
+    throwOnError: true
+});
+</script>
+
+<p>input 1: <input id="input1" size="5" /></p><br>
+<p>input 2: <input id="input2" size="5" /></p><br>
+
+<button id="add" onclick="myFunction('add')">cộng</button>
+
+<button id="add" onclick="myFunction('subtract')">trừ</button>
+
+<button id="add" onclick="myFunction('times')">nhân</button>
+
+<button id="add" onclick="myFunction('div')">chia</button>
+
+<!-- <p>Answer:<input id="output1" size="5" /></p> -->
+
+<p id = "output1"></p>
+
+<p id="idOne">
+<p id="idTwo">
+<p id="answer">
+
+</p>
+
+<script>
+
+    function myFunction(id) {
+        var num1 = document.getElementById("input1").value;
+        var num2 = document.getElementById("input2").value;
+        var result;
+
+
+        if (id == "add") {
+            result = Number(num1) + Number(num2);
+        }
+
+        else if (id == "subtract")
+        {
+            result = Number(num1) - Number(num2);
+        }
+
+        else if (id == "times")
+        {
+            result = Number(num1) * Number(num2);
+        }
+
+        else if (id == "div")
+        {
+            result = Number(num1) / Number(num2);
+        }
+
+
+        document.getElementById("idOne").value = num1;
+        document.getElementById("idTwo").value = num2;
+        document.getElementById("output1").innerHTML = result;
+        
+    }
+</script>
